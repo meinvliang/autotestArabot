@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="registerPage" value="https://www.hiyd.com/"/>
+    <parameter name="driverPath" value="D:/java-workspace/driver/geckodriver.exe"/>
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="com.hustar.autoTestDemo.TestBaiduDemo">
+        <methods>
+          <include name="fitness"/>
+          <include name="browserStart"/>
+        </methods>
+      </class> <!-- com.hustar.autoTestDemo.TestBaiduDemo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
