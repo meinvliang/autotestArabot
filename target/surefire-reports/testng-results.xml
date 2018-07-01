@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49042" started-at="2018-06-20T13:36:40Z" finished-at="2018-06-20T13:37:29Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="49042" started-at="2018-06-20T13:36:40Z" finished-at="2018-06-20T13:37:29Z">
+      <class name="com.hustar.autoTestDemo.TestBaiduDemo">
+        <test-method status="PASS" signature="browserStart(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hustar.autoTestDemo.TestBaiduDemo@6537cf78]" name="browserStart" is-config="true" duration-ms="23055" started-at="2018-06-20T13:36:40Z" finished-at="2018-06-20T13:37:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.hiyd.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[D:/java-workspace/driver/geckodriver.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserStart -->
+        <test-method status="PASS" signature="fitness()[pri:0, instance:com.hustar.autoTestDemo.TestBaiduDemo@6537cf78]" name="fitness" duration-ms="25963" started-at="2018-06-20T13:37:03Z" finished-at="2018-06-20T13:37:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fitness -->
+      </class> <!-- com.hustar.autoTestDemo.TestBaiduDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
